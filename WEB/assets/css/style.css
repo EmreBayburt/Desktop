@@ -1,0 +1,1132 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    /* font-family: 'DM Sans', sans-serif; */
+    /* font-family: 'DM Serif Display', serif; */
+}
+input, button, textarea, select {
+    font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+.outerContainer{
+    background-color: #434ccc;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+
+}
+.logo{
+    font-family: 'DM Serif Display', serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    line-height: 32px;
+    margin-right: auto;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+.nav a{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+}
+.button{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    padding: 12px 50px;
+    margin-left: 40px;
+}
+.hero{
+    background-color: #434ccc;
+}
+.heroItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.heroItem img{
+    width: 700px;
+}
+.heroText h5{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.heroText h1{
+    font-family: 'DM Serif Display', serif;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.heroText p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.exploreButton{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    background-color: #f1b505;
+    border-radius: 5px;
+    padding: 12px 50px;
+}
+.section{
+    background-color: #ffdd78;
+}
+.sectionItem{
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.textCenter{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.sectionText h2{
+    font-family: 'DM Serif Display', serif;
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 400;
+}
+.sectionText p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 50px;
+}
+.card{
+    background-color: #fff;
+    padding-bottom: 30px;
+    box-shadow: 4px 4px 20px #888888;
+}
+.cardImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 250px;
+}
+.cards h4{
+    font-family: 'DM Serif Display', serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+.cards p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+
+}
+.learnMore{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+    margin-left: 20px;
+}
+.postea{
+    background-color: #f5f6fd;
+    padding-top: 50px;
+}
+.nemore{
+    width: 1170px;
+    margin: 0 auto;
+}
+.posteaText{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.nemore h5{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.nemore h2{
+    font-family: 'DM Serif Display', serif;
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 400;
+}
+.nemore p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+}
+.nemoreItem{
+    display: flex;
+    align-items: center;
+}
+.nemoreText h3{
+    font-family: 'DM Serif Display', serif;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.nemoreText p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.nemoreButton{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+}
+.doloremItem{
+    display: flex;
+    align-items: center;
+}
+.doloremText{
+    margin-left: 40px;
+}
+.doloremText h3{
+    font-family: 'DM Serif Display', serif;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.doloremText p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.doloremButton{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+}
+.blue{
+    background: url('../img/png/blue.png');
+    height: 768px;
+}
+.sectionBlue{
+    padding-top: 50px;
+}
+.sectionBlueItem{
+    width: 1170px;
+    margin: 0 auto;
+}
+.blueText{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sectionBlueItem h5{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #fff;
+}
+.sectionBlueItem h2{
+    font-family: 'DM Serif Display', serif;
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 400;
+    color: #fff;
+}
+.sectionBlueItem p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 60px;
+}
+.sectionYellow{
+    background: url('../img/png/yellow.png');
+    height: 512px;
+    margin-bottom: 60px;
+}
+.sectionYellow h6{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #fff;
+    margin-bottom: 30px;
+    padding-top: 100px;
+    margin-left: 60px;
+}
+.sectionYellow h2{
+    font-family: 'DM Serif Display', serif;
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 400;
+    margin-bottom: 60px;
+    margin-left: 60px;
+}
+.sectionYellow a{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    padding: 12px 50px;
+    margin-left: 60px;
+    display: inline-block;
+}
+.sectionAlt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 80px;
+}
+.heykel{
+    background-image: url('../img/png/heykel.png');
+    width: 570px;
+    height: 512px;
+}
+.kopek{
+    background-image: url('../img/png/kopek.png');
+    width: 570px;
+    height: 512px;
+}
+.sectionAlt h6{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fff;
+}
+.sectionAlt h4{
+    font-family: 'DM Serif Display', serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #fff;
+}
+.sectionText{
+    margin-top: 80px;
+}
+.sectionText h6{
+    margin-bottom: 30px;
+    margin-left: 80px;
+}
+.sectionText h4{
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+.sectionText img{
+    margin-left: 80px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 10px 12px;
+    border-radius: 5px;
+}
+.buttonWorks{
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+.buttonWorks a{
+    text-decoration: none;
+    color: #434ccc;
+    border: 1px solid #888;
+    padding: 10px 35px;
+    border-radius: 5px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+}
+.dogWalk{
+    background-color: #f2f2f2;
+    padding-bottom: 60px;
+}
+.dogItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+.dogImg img{
+    width: 100%;
+}
+.dogText h2{
+    font-family: 'DM Serif Display', serif;
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 400;
+}
+.dogText p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+}
+.dogSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 40px;
+
+}
+.clockItem{
+    margin-top: 10px;
+}
+.clockItem h4{
+    font-family: 'DM Serif Display', serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+}
+.clockItem p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.boxItem h4{
+    font-family: 'DM Serif Display', serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+}
+.boxItem p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.scr{
+    background-color: #f2f2f2;
+}
+.scrText{
+    text-align: start;
+    margin-left: 30px;
+    margin-right: auto;
+}
+.scrText h5{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #fff;
+    padding-bottom: 30px;
+}
+.scrText h2{
+    font-family: 'DM Serif Display', serif;
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 30px;
+}
+.scrText p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 30px;
+}
+.scrItem{
+    display: flex;
+    align-items: center;
+    width: 1170px;
+    margin: 0 auto;
+    background-color: #434ccc;
+}
+.scrItem img{
+    width: 590px;
+}
+.scrAlt{
+    background-color: #f2f2f2;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.scrAltText{
+    text-align: center;
+}
+.scrAltText h5{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    padding-bottom: 30px;
+}
+.scrAltText h2{
+    font-family: 'DM Serif Display', serif;
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.scrAltText p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.scrAltItem{
+    width: 1170px;
+    margin: 0 auto;
+}
+.scrCards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.scrCard{
+    background-color: #fff;
+    width: 370px;
+    height: 480px;
+    padding-top: 30px;
+    box-shadow: 2px 2px 20px;
+    border-radius: 5px;
+}
+.scrCard img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    padding-bottom: 20px;
+}
+.scrCard h4{
+    font-family: 'DM Serif Display', serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    margin-left: 25px;
+    padding-bottom: 20px;
+}
+.cizgi{
+    border-top: 1px solid #cbcbcf;
+    margin-left: 30px;
+    padding-bottom: 20px;
+}
+.scrCard h6{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-left: 25px;
+    margin-right: auto;
+}
+.information{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.socialMedia{
+    display: flex;
+    padding-top: 15px;
+}
+.sectionGrid{
+    background-color: #f2f2f2;
+}
+.gridItem{
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.gridText{
+    text-align: center;
+}
+.gridText h5{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+}
+.gridText h2{
+    font-family: 'DM Serif Display', serif;
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.gridText p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    padding-bottom: 60px;
+}
+.gridCards{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.gridCard{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 10px;
+    gap: 35px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.gridCard h4{
+    font-family: 'DM Serif Display', serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.gridCard p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.dicta{
+    background-color: #434ccc;
+}
+.dictaItem{
+    width: 1170px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.arrow{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.dictaText h5{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #fff;
+    padding-bottom: 30px;
+}
+.dictaText h4{
+    font-family: 'DM Serif Display', serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 30px;
+}
+.dictaText h6{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 10px;
+}
+.dictaText p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fff;
+}
+.arrowItem{
+    display: grid;
+    gap: 20px;
+    margin-right: auto;
+}
+.arrowImg{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 15px 15px;
+    border-radius: 5px;
+}
+.dictaImg{
+    margin-right: auto;
+}
+.petentium{
+    background-color: #f2f2f2;
+    padding-bottom: 60px;
+}
+.petentiumItem{
+    width: 1170px;
+    margin: 0 auto;
+}
+.petentiumText{
+    text-align: center;
+    padding-top: 60px;
+}
+.petentiumText h5{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    padding-bottom: 30px;
+}
+.petentiumText h2{
+    font-family: 'DM Serif Display', serif;
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.petentiumText p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.petentiumMedia{
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+.buttonWorks{
+    padding-bottom: 80px;
+}
+.cizgiAlt{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.novum{
+    background-color: #f2f2f2;
+}
+.novumItem{
+    width: 1170px;
+    margin: 0 auto;
+    padding-bottom: 90px;
+}
+.novumText{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+}
+.novumItem h5{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.novumText h2{
+    font-family: 'DM Serif Display', serif;
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 400;
+}
+.novumText a{
+    text-decoration: none;
+    color: #434ccc;
+    border: 1px solid #888;
+    padding: 10px 35px;
+    border-radius: 5px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+}
+.novumCards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.novumCard{
+    background-color: #fff;
+    width: 565px;
+    height: 480px;
+    padding: 40px 30px;
+    box-shadow: 2px 2px 20px;
+    border-radius: 5px;
+}
+.novumCard img{
+    width: 500px;
+}
+.novumCard p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.novumCard h4{
+    font-family: 'DM Serif Display', serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.novumCizgi{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    width: 535px;
+    margin-bottom: 20px;
+}
+.novumButton{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 20px;
+}
+.viderer{
+    background-color: #f2f2f2;
+}
+.vidererItem{
+    width: 1170px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    display: flex;
+}
+.vidererText{
+    padding-top: 10px;
+}
+.vidererText h5{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    padding-bottom: 40px;
+}
+.vidererText h4{
+    font-family: 'DM Serif Display', serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+.vidererText p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.media{
+    margin-top: 10px;
+}
+.vidererSocial a{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 10px;
+    padding: 0 10px;
+    padding-top: 8px;
+    border-radius: 5px;
+}
+.vidererSocial{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.vidererCard{
+    display: flex;
+    gap: 30px;
+    margin-left: auto;
+}
+.vidererCard img{
+    border-radius: 10px;
+}
+.maiestatis{
+    background-color: #ffdd78;
+}
+.maiestatisItem{
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.maiestatisText{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.maiestatisText h5{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+}
+.maiestatisText h2{
+    font-family: 'DM Serif Display', serif;
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.maiestatisText p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.maiestatisText a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #434ccc;
+    padding: 10px 50px;
+    border-radius: 5px;
+}
+.subscribe{
+    margin-left: 30px;
+}
+.email{
+    padding: 5px 0;
+}
+.maiestatisItem img{
+    width: 700px;
+    height: auto;
+}
+.location{
+    background-color: #434ccc;
+}
+.locationItem{
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.locationItem img{
+    width: 600px;
+    padding: 50px 0;
+    position: absolute;
+}
+.locationImg{
+    display: flex;
+    align-items: center;
+}
+.konum img{
+    width: 72px;
+    position: relative;
+    margin-left: 250px;
+}
+.e-mail{
+    display: block;
+    margin-bottom: 30px;
+    width: 340px;
+}
+.message{
+    width: 340px;
+    padding-bottom: 50px;
+    display: block;
+    margin-bottom: 60px;
+}
+.locationText h5{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.locationText h2{
+    font-family: 'DM Serif Display', serif;
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    color: #fff;
+}
+.submitButton{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    background-color: #f1b505;
+    border-radius: 5px;
+    padding: 12px 50px;
+}
+.footer{
+    background-color: #f2f2f2;
+}
+.footerItem{
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.footerText{
+    display: flex;
+    justify-content: space-between;
+}
+.logoText h4{
+    font-family: 'DM Serif Display', serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.logoText p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.footerMedia{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.causae h4{
+    font-family: 'DM Serif Display', serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.causae p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.aperiri h4{
+    font-family: 'DM Serif Display', serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.aperiri p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.footerCard{
+    display: flex;
+    padding-bottom: 40px;
+    gap: 5px;
+}
+.footerImg img{
+    width: 72px;
+    height: auto;
+}
+.footerCard h2{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.footerCard p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+.footerCizgi{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.footerEnd{
+    padding-top: 30px;
+}
+.endText{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.enText p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
